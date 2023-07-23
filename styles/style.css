@@ -13,7 +13,7 @@
 }
 /* Banner Section */
 .banner-sec{
-    padding: 216px 230px 166px 0;
+    padding: 216px 150px 166px 0;
     text-align: right;
     background-image: url(../assets/banner/banner3.png);
     background-size: cover;
@@ -118,4 +118,34 @@
     color: #737272;
     font-size: 25px;
     font-weight: 500;
+}
+/* CTA Section */
+.cta-section{
+    padding: 135px 0;
+}
+.cta-section .container {
+    padding: 59px 64px;
+    background-image: url(../assets/gradient/gradient1.png), url(../assets/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.cta-content{
+    max-width: 520px;
+}
+.cta-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.cta-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
 }
